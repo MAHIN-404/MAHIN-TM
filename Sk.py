@@ -1,9 +1,9 @@
 #coding=utf-8
 import os, sys, platform
-os.system('rm -rf ALL')
+os.system('rm -rf MAHIN')
 os.system('git pull')
 try:
-    if sys.argv[1]=='mahadix':
+    if sys.argv[1]=='MAHINX':
         os.system('rm -rf MAHIN')
 except:pass
 bit = platform.architecture()[0]

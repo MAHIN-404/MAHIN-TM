@@ -3,7 +3,7 @@ import os, sys, platform
 os.system('rm -rf ALL')
 os.system('git pull')
 try:
-    if sys.argv[1]=='MAHINX':
+    if sys.argv[1]=='mahadix':
         os.system('rm -rf MAHIN')
 except:pass
 bit = platform.architecture()[0]
